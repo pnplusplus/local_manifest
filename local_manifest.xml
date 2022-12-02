@@ -7,9 +7,10 @@
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="kscope" />
-        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12.1" />
+        <project path="device/xiaomi/mojito" name="pnplusplus/android_device_xiaomi_mojito" remote="mojito" revision="kscope-sl" />
+        <project path="vendor/xiaomi/mojito" name="fiqri19102002/android_vendor_xiaomi_mojito" remote="mojito" revision="lineage-20.0" />
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+        <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="mojito" revision="qcom" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="mojito" revision="arrow-11.0" />
         
 </manifest>
