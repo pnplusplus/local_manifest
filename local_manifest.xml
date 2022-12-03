@@ -3,6 +3,8 @@
 
         <remote name="mojito"
                 fetch="https://github.com" />
+        <remote name="mojito-miuicamera"
+                fetch="https://gitlab.com" />
 
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
 
@@ -12,5 +14,6 @@
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="mojito" revision="qcom" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="mojito" revision="arrow-11.0" />
+        <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor_xiaomi_mojito-miuicamera-mirror" remote="mojito-miuicamera" revision="main" />
         
 </manifest>
