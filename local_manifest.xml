@@ -13,9 +13,9 @@
         <remove-project name="GrapheneOS/platform_external_Apps" />
         <remove-project name="ProtonAOSP/android_packages_apps_GmsCompat" />
         <!-- Sync trees -->
-        <project path="bionic" name=""pnplusplus/awaken_android_bionic" groups="pdk" remote="mojito" />
-        <project path="frameworks/av" name="pnplusplus/awaken_android_frameworks_av" remote="mojito" />
-        <project path="frameworks/base" name="pnplusplus/awaken_android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mojito" />
+        <project path="bionic" name=""pnplusplus/awaken_android_bionic" groups="pdk" remote="mojito" revision="12.1"/>
+        <project path="frameworks/av" name="pnplusplus/awaken_android_frameworks_av" remote="mojito" revision="12.1"/>
+        <project path="frameworks/base" name="pnplusplus/awaken_android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mojito" revision="12.1"/>
         <project path="device/xiaomi/mojito" name="pnplusplus/android_device_xiaomi_mojito" remote="mojito" revision="awaken-12.1-core" />
         <project path="vendor/xiaomi/mojito" name="fiqri19102002/android_vendor_xiaomi_mojito" remote="mojito" revision="lineage-20.0" />
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
